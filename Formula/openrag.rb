@@ -1,11 +1,10 @@
-# Documentation: https://docs.brew.sh/Formula-Cookbook
-#                https://rubydoc.brew.sh/Formula
 class Openrag < Formula
   include Language::Python::Virtualenv
 
   desc "Comprehensive Retrieval-Augmented Generation platform built on Langflow, Docling, and Opensearch"
   homepage "https://github.com/bendevergerona/openrag"
-  url "https://github.com/bendevergerona/openrag.git",
+  url "https://github.com/bendevergerona/openrag.git", 
+  version "0.1.25"
   license "Apache-2.0"
   head "https://github.com/bendevergerona/openrag.git", branch: "main"
 
