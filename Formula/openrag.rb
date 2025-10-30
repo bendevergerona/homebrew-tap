@@ -6,7 +6,7 @@ class Openrag < Formula
   desc "Comprehensive Retrieval-Augmented Generation platform built on Langflow, Docling, and Opensearch"
   homepage "https://github.com/bendevergerona/openrag"
   url "https://github.com/bendevergerona/openrag.git",
-      tag: "v0.1.25",
+      tag: "main",
       revision: "" # Will be filled after creating a release
   license "Apache-2.0"
   head "https://github.com/bendevergerona/openrag.git", branch: "main"
